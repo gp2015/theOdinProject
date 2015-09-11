@@ -19,7 +19,7 @@ for (var i = 0; i < 1000; i++) {
     }
 }
 
-for (var j = 0; j < myArr.length-1; j++) {
+for (var j = 0; j < myArr.length; j++) {
   	console.log("Index #: " + j);
     console.log("Adding " + myArr[j] + " to total");
 	total += myArr[j];
