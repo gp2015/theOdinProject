@@ -2,8 +2,8 @@ var even = [];
 var fib = [];
 var total = 0;
 
-fib[0] = 1;
-fib[1] = 2;
+fib[0] = 0;
+fib[1] = 1;
 
 for (var i = 2; i < 35; i++) {
 	fib[i] = fib[i-1] + fib[i-2];
